@@ -79,7 +79,7 @@ agent:
     kind: in-memory  
 ```  
 
-### **3. Run Your Agent**  
+### **3. Run Your Agent standalone**  
 ```python  
 from kiss_ai_stack import AgentStack  
 
@@ -105,7 +105,20 @@ Run your AI agents on a server with REST and WebSocket APIs.
 ### **Install the Server**  
 ```bash  
 pip install kiss-ai-stack-server  
-```  
+```
+
+### **Add .env file**
+
+```bash
+ACCESS_TOKEN_SECRET_KEY = "your-secure-random-secret-key"
+ACCESS_TOKEN_ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
+SESSION_DB_URL="sqlite://sessions.db"
+```
+
+### Define Your Agent (YAML Example)
+Add the stack.yaml file same as in standalone core mode.
 
 ### **Start the Server**  
 ```python  
