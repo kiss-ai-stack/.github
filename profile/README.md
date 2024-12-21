@@ -43,7 +43,7 @@ Welcome to **KISS AI Stack** - a simple way to build AI-assisted solutions with 
 
 ## **Get Started**  
 ### **Components**  
-- [Core Package](hhttps://github.com/kiss-ai-stack/kiss-ai-stack-core)  
+- [Core Package](https://github.com/kiss-ai-stack/kiss-ai-stack-core)  
 - [Server Package](https://github.com/kiss-ai-stack/kiss-ai-stack-server)  
 - [Python Client SDK](https://github.com/kiss-ai-stack/kiss-ai-stack-python-sdk)  
 - [Documentation](https://kiss-ai-stack.github.io/)
